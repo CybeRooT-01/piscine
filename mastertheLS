@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ls -haAt --ignore='.??*' --ignore='.[^.]' --ignore='#*' --ignore='.*' --indicator-style=slash --format=commas | tr -d " \t\n\r"
